@@ -1,0 +1,10 @@
+Program menggunakan dictionary bernama data_mahasiswa untuk menyimpan data. Setiap mahasiswa disimpan dengan nama sebagai key, dan value berupa dictionary yang berisi informasi lengkap mahasiswa (NIM, nama, nilai tugas, UTS, UAS, dan nilai akhir).
+
+Program dimulai dengan menginisialisasi class DaftarNilai yang membuat dictionary kosong dan menampilkan menu utama dalam loop tak terbatas (while True). Menu utama program menampilkan 5 pilihan, yaitu: Tambah untuk menambah data baru, Tampilkan untuk menampilkan semua data, Hapus untuk menghapus data, Ubah untuk mengubah data yang sudah ada, dan Keluar untuk mengakhiri program.
+
+Fitur Tambah meminta input NIM, Nama, dan 3 nilai (Tugas, UTS, UAS), lalu menghitung nilai akhir dengan bobot 30% untuk Tugas, 35% untuk UTS, dan 35% untuk UAS, kemudian menyimpan semua data ke dictionary dengan nama sebagai key.
+Fitur Tampilkan menampilkan tabel dengan header yang rapi, melakukan loop untuk semua data dalam dictionary, dan menampilkan nomor urut, nama, NIM, nilai tugas, UTS, UAS, dan nilai akhir dalam format tabel yang terstruktur.
+Fitur Hapus meminta nama yang akan dihapus, melakukan pengecekan apakah nama ada dalam dictionary, lalu menghapus data dari dictionary menggunakan perintah del jika data ditemukan. Jika tidak ditemukan, program menampilkan pesan bahwa data tidak dapat ditemukan.
+Fitur Ubah meminta nama yang akan diubah, melakukan pengecekan apakah nama ada dalam dictionary, lalu meminta nilai baru (Tugas, UTS, UAS), menghitung nilai akhir berdasarkan nilai baru, dan memperbarui data di dictionary dengan mempertahankan NIM dan nama yang lama.
+Keluar program menggunakan break untuk mengakhiri looping while True.
+Terakhir, jika input tidak sesuai dengan pilihan menu (1-5), maka program akan menampilkan pesan "Perintah tidak ditemukan!" dan kembali ke menu utama.
